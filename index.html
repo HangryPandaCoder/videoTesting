@@ -22,6 +22,15 @@
                     }.bind(this));
                 },
             });
+
+            AFRAME.registerComponent('clicker', {
+                init: function () {
+                    this.el.addEventListener('click', e => {
+                        window.open("https://line.me/R/ti/p/%40510nmajk");
+                    });
+                },
+            });
+            // @510nmajk https://line.me/R/ti/p/%40510nmajk
         </script>
     </head>
 
@@ -46,6 +55,7 @@
                     autoplay
                     muted
                     playsinline
+                    clicker
                 ></video>
             </a-assets>
 
